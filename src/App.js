@@ -26,7 +26,7 @@ function App() {
       params: {
         lat: lat,
         lon: long,
-        appid: process.env.REACT_APP_OPEN_WHEATER_KEY.replace(/[^\w.@-]/g, ""),
+        appid: process.env.REACT_APP_OPEN_WHEATER_KEY,
         lang: "pt",
         units: "metric"
       }
