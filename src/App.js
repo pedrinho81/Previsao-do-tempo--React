@@ -5,7 +5,7 @@ import { FaTemperatureHigh, FaTemperatureLow, FaPersonBooth, FaTencentWeibo, FaW
 
 function App() {
 
-
+  
   //LOCATION//
   const [location, setLocation] = useState(false)
 
@@ -120,6 +120,9 @@ function App() {
               </div>
             </div>
           </div>
+          <footer>
+          <p className="text-black mb-4 text-center">Made with <span className="mr-2" role="link" aria-label="heart">💜</span> by <a className="text-indigo-600 hover:underline font-semibold" href="https://www.linkedin.com/in/pedro-henrique81/" rel="noreferrer" target="_blank" >©Pedro Henrique 2022</a></p>
+          </footer>
         </div>
       </Fragment>
     );
